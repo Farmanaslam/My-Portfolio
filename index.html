@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+</head>
+<body>
+   <style>
+    *{
+        background-color:#2d545e;
+    }
+
+.navbar{
+width:20%;
+    height:700px;
+    background-color: #2d545e;
+    
+}
+
+.img{
+    width: 200px;
+    height:200px;
+border-radius:50%;
+margin-top: 25px;
+margin-left: 20px;
+margin-right: 20px;
+
+
+margin-bottom: 20px;
+}
+.name{
+    background-color: #2d545e;
+    margin-left: 30px;
+    font-size:xx-large;
+
+
+}
+a{
+display: block;
+text-align: center;
+text-decoration: none;
+font-size: x-large;
+border-radius: 5rem;
+
+}
+
+.hi{
+color:whitesmoke;
+
+text-align: center;
+position:absolute;
+bottom: 420px;
+right: 675px;
+
+}
+.myname{
+color:yellow;
+position: absolute;
+bottom: 350px;
+right: 460px;
+font-size: xx-large;
+}
+.para{
+color:whitesmoke;
+font-size:x-large;
+position: absolute;
+right: 65px;
+bottom: 35px;
+}
+.btn{cursor: pointer;
+position: absolute;
+bottom: 5px;
+right:700px;
+font-size: large;
+border-radius: 4rem;
+padding-right:4%;
+padding-left: 4%;
+padding-top: 1%;
+padding-bottom: 1%;
+background-color: #2d545e;
+}
+ .btn:hover{
+transition:ease-out;
+    background-color: yellow;
+
+}
+.hamberg{
+    height: 5%;
+    width:3%;
+    position: absolute;
+    right:1080px;
+    background-color: #333;
+margin-top: 1%;
+cursor: pointer;
+background-color: #333;
+}
+.hamberg:hover{
+    background-color: yellow;
+}
+
+
+@media (max-width:400px) {
+    .navbar{
+        display: none;
+    }
+    .hi{margin-left: 10%;
+display: contents;
+   }
+   .myname{
+    padding-bottom: 10%;
+   }
+ 
+    .para{
+    
+        font-size: 20px;
+        display: inline-block;
+        text-align: center;
+        top: 55%;
+    }
+    
+.btn{
+    position: absolute;
+    left:500px;
+}
+.change{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+}
+
+@media (max-width:1101px) {
+    
+    *{
+margin-bottom: 7%;
+    }
+    .navbar{
+        display: none;
+          }
+
+          .btn{
+            position: absolute;
+        bottom: -25px;
+          }
+}
+
+@media (max-width:869px) {
+    .navbar{
+        display: none;
+    }
+    .hi{margin-left: 10%;
+display: contents;
+   }
+ 
+    .para{
+    
+        font-size: 25px;
+        display: inline-block;
+        text-align: center;
+        top: 15%;
+    }
+    .myname{
+display: contents;
+justify-content:space-between;
+        
+    }
+
+.btn{
+    position: absolute;
+    right: 550px;
+}
+
+}
+.icon .bar{
+    background-color: white;
+}
+.icon #bar1{
+    transform:translateY(4px) rotate(-45deg);
+}
+
+
+.icon #bar3{
+    transform:translateY(-6px) rotate(45deg);
+}
+
+.icon #bar2{
+    opacity: 0;
+}
+.change{
+background-color:#333;
+height: 100vh;
+margin: 0;
+position:absolute;
+font-size: 30px;
+top:0;
+z-index: -100;
+width:20%;
+position: absolute;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+<div class="container">
+    <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>           
+            <div id="nav" class="navbar">
+
+
+            
+        <img src="C:\Users\Farman\Desktop\My images'\1679381178141.jpg" class="img">
+    
+<h2 style="color:whitesmoke;"class="name">Farman Aslam</h2>
+
+
+
+<br>
+<br>
+
+
+<a  style="color: whitesmoke; background-color:#2d545e;  "href="Myportfolio.html">Home</a>
+    <br>
+    
+    <a style="color: whitesmoke; background-color:#2d545e; "href="About me.html">About</a>
+    
+    <br>
+
+    <a   style="color: whitesmoke;background-color:#2d545e;" href=" gallery.html"  >Gallery</a>
+    <br>
+    
+    <a style="color: whitesmoke;background-color:#2d545e" href="education.html" >Education</a>
+    <br>
+    
+    <a  style="color: whitesmoke;background-color:#2d545e; " href="contactme.html">Contact me</a>
+ 
+
+
+
+
+</div>
+
+
+
+
+<section class="mainpart">
+<h2  style="color:whitesmoke;"class="hi">HII THERE !!</h2>
+<h1 class="myname">I'M MD FARMAN ASLAM</h1>
+<h4 class="para">
+Currently I'm living in Asansol which is in West Bengal India.
+<br>
+<br>
+I'm Pursuing my B.tech in the stream of Computer Science and Engineering,
+<br>
+<br>
+from Bengal College of Engineering,Durgapur. I will be Graduating in the 
+<br>
+<br>
+Year 2025. I had started my coding journey with cpp but now I have Switched
+<br>
+<br>
+to Java. I have some other skills like Web development using React,Javascript.
+<br>
+<br>
+To know more About myself Click the button..
+
+</h4>
+
+<a href="About me.html"><button  style=" color:whitesmoke;"class="btn" > 
+About Me
+</button></a>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

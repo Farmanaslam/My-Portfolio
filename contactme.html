@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact me</title>
+</head>
+<style>
+*{
+    background-color: #2d545e;
+    
+}
+.contact h1{
+text-align: center;
+margin-bottom: 5%;
+}
+.info {background-color:#2d545e;
+    margin-top: 5%;
+padding-left: 20%;
+font-size: large;
+position: absolute;
+left:8%;
+top:10%;
+
+}
+.form{
+position: absolute;
+right: 20%;
+top:22%;
+display: flexbox;
+
+font-size: larger;
+
+}
+.name{
+padding-top: 5%;
+padding-left: 20%;
+padding-right: 20%;
+padding-bottom: 5%;
+text-align: center;
+    color: white;
+}
+.form ::placeholder{
+    color:white;
+    font-size: large;
+}
+
+.email{
+padding-left: 20%;
+padding-right: 20%;
+padding-top: 5%;
+padding-bottom: 5%;
+text-align: center;
+    color: white;
+}
+
+.contact{
+padding-left: 20%;
+padding-right: 20%;
+padding-top: 5%;
+padding-bottom: 5%;
+text-align: center;
+    color: white;
+}
+
+.boxmsg{
+padding-left: 20%;
+padding-right: 20%;
+padding-top: 5%;
+padding-bottom: 5%;
+text-align: center;
+    color: white;
+}
+.btn{cursor: pointer;
+    text-align: center;
+    font-size: large;
+    margin-top: 30%;
+    
+bottom:150%;
+right:25%;
+background-color: rgb(42,43,43);
+padding-right: 5%;
+padding-left: 5%;
+padding-top: 1%;
+padding-bottom: 1%;
+border-radius: 5%;
+}
+.btn:hover{
+    background-color: yellow;
+}
+.mailbox{
+    color:red;
+ margin-right: .25cm;
+}
+
+.phoneicon{
+    color:red;
+ margin-right: .25cm;
+}
+.whatsappicon{
+    color:green;
+ margin-right: .25cm;
+}
+
+
+.mapmarkericon{
+    color:red;
+ margin-right: .25cm;
+}
+
+@media (max-width:550px) {
+.form{
+    bottom: -175%;
+}
+.bt{
+    position: inherit;
+    color: aqua;
+}
+
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+<body>
+    <div class="contact" id="contact">
+<h1 style="color: yellow;">Contact <span style="color:white;">Me</span> </h1>
+<br>
+<br>
+<div class="info">
+<h3><span class="mailbox">&#9993;</span><span style="color:white">farmanaslam674@gmail.com</span>
+</h3>
+<br>
+<br>
+<h3><span class="phoneicon">&#9742;</span><span style="color:white">7477347818</span>
+</h3>
+<br>
+<br>
+<h3><i class="whatsappicon">&#xF618;</i><span style="color:white">8927881606</span>
+</h3>
+<br>
+<br>
+<h3><span class=" mapmarkericon">&#xF3E8; </span> <span style="color:white">Kalyanpur housing,Asansol</span>
+</h3>
+
+</div>
+<div class="form">
+<form class="form" action="">
+
+<input required type="text" style="color: yellow;" placeholder="Enter your Name" class="name">
+<br>
+<br>
+<input required type="email" placeholder="Enter your email" class="email">
+<br>
+<br>
+<input  required type="number" placeholder="Enter your Contact number" class="contact ">
+<br>
+<br>
+<textarea  required name=" " id="textarea" cols="30" rows="10" class="boxmsg" placeholder="Any message to Me"></textarea>
+
+
+</form>
+<button class="bt">Send </button>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
